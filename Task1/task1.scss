@@ -1,0 +1,23 @@
+.calendar{
+	width: 50%;
+	margin: 10% auto;
+
+	th {
+		font-family: 'Lobster', cursive;
+		font-size: 30px;
+	}
+
+	.weekday{
+		font-family: 'Lobster', cursive;
+	}
+
+	td.date:hover {
+	  background-color: #0E79B2;
+	  color:#FBFEF9;
+	}
+
+	.table>tbody>tr>td.active{
+		background-color: #9CFC97;
+		color: #FBFEF9;
+	}
+}
